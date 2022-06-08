@@ -16,3 +16,30 @@ function calcSum(arr) {
     return `Juft array: ${juftArr}  Toq array: ${toqArr}`
 }
 console.log(calcSum(arr));
+
+
+
+
+//Masala-2:
+
+let array = ["Jazz", "Blues"]
+
+console.log(array);
+
+array.push("Rock-n-roll")
+
+console.log(array);
+
+array[Math.floor(array.length/2)] = "Classics"
+
+console.log(array);
+
+array.shift()
+
+console.log(array);
+
+
+array.unshift("Reggae")
+array.unshift("Rap")
+
+console.log(array);
