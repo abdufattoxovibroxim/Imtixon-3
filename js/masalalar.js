@@ -52,25 +52,47 @@
 
 
 
-//Masala-3:
+// //Masala-3:
 
 
-let salaries = {
-  "Akmal": 1200,
-  "Salim": 5200,
-  "Karima": 1800
-}
-const  sum = []
+// let salaries = {
+//   "Akmal": 1200,
+//   "Salim": 5200,
+//   "Karima": 1800
+// }
+// const  sum = []
 
-const calcPay = function(pay){
+// const calcPay = function(pay){
 
-    let paySalaries = 0
-    for(let p of pay){
-        paySalaries += p
+//     let paySalaries = 0
+//     for(let p of pay){
+//         paySalaries += p
+//     }
+//     sum.push(paySalaries)
+
+//     return sum
+// }
+
+// console.log(calcPay(Object.values(salaries)));
+
+
+
+
+//Masala-1:
+
+let arr = [];
+const a = parseInt(prompt("Raqam kiriting:")),
+const b = parseInt(prompt("Raqam kiriting:")),
+const c = parseInt(prompt("Raqam kiriting:"));
+
+arr.push(a,b,c);
+
+function sumInput(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
     }
-    sum.push(paySalaries)
-
-    return sum
+    return sum === NaN ? "son emas" : sum;
 }
 
-console.log(calcPay(Object.values(salaries)));
+console.log(sum(arr));
