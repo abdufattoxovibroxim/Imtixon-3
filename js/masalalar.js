@@ -78,21 +78,21 @@
 
 
 
-//Masala-1:
+// //Masala-1:
 
-let arr = [];
-const a = parseInt(prompt("Raqam kiriting:")),
-const b = parseInt(prompt("Raqam kiriting:")),
-const c = parseInt(prompt("Raqam kiriting:"));
+// let arr = [];
+// const a = parseInt(prompt("Raqam kiriting:")),
+// const b = parseInt(prompt("Raqam kiriting:")),
+// const c = parseInt(prompt("Raqam kiriting:"));
 
-arr.push(a,b,c);
+// arr.push(a,b,c);
 
-function sumInput(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    return sum === NaN ? "son emas" : sum;
-}
+// function sumInput(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     return sum === NaN ? "son emas" : sum;
+// }
 
-console.log(sum(arr));
+// console.log(sum(arr));
